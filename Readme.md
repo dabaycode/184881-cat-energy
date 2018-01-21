@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Алина Свириденко](https://up.htmlacademy.ru/adaptive/13/user/184881).
-* Наставник: `Неизвестно`.
+* Студент: [Байко Дмитрий](https://up.htmlacademy.ru/adaptive/13/user/184881).
+* Наставник: Без наставника.
 
 ---
 
