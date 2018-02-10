@@ -1,0 +1,35 @@
+.advantages {
+  padding: 0 20px;
+}
+
+.advantages__title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: $font-reg;
+  font-size: 36px;
+  line-height: 60px;
+}
+
+.advantages__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  &:last-of-type {
+    margin-bottom: 30px;
+  }
+}
+
+.advantages__item-description {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: $font-txt;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.advantages__item-icon-img {
+  margin-right: 20px;
+}

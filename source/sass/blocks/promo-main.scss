@@ -1,0 +1,41 @@
+.promo-main__start-block {
+  width: 100%;
+  margin-bottom: 155px;
+  padding-top: 29px;
+  padding-bottom: 155px;
+  position: relative;
+  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.promo-main__title {
+  margin: 0 0 20px 0;
+  padding: 0 20px;
+  font-family: $font-reg;
+  font-size: 36px;
+  line-height: 36px;
+  color: #fff;
+}
+
+.promo-main__description {
+  margin: 0;
+  padding: 0 20px;
+  font-family: $font-reg;
+  font-size: 14px;
+  line-height: 14px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.promo-main__product-img {
+  position: absolute;
+  left: 50%;
+  margin-top: -280px;
+  margin-left: -140px;
+}
+
+.promo-main__btn-wrapper {
+  padding: 0 20px;
+}

@@ -1,0 +1,15 @@
+.copyright {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright__title-link {
+  display: block;
+  font-family: $font-txt;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #444444;
+}

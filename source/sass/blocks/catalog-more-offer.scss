@@ -1,0 +1,46 @@
+.catalog-more-offer {
+  padding: 25px 20px;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  text-align: center;
+}
+
+.catalog-more-offer__plus-icon {
+  display: block;
+  margin: 0 auto;
+  width: 31px;
+  height: 2px;
+  position: relative;
+  background-color: #d3d3d3;
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 31px;
+    height: 2px;
+    background-color: #d3d3d3;
+    transform: rotate(90deg);
+  }
+}
+
+.catalog-more-offer__title {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: $font-reg;
+  color: #111111;
+  text-transform: uppercase;
+}
+
+.catalog-more-offer__description {
+  font-family: $font-txt;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+}
+
+.catalog-more-offer__btn {
+  margin-top: 20px;
+  width: 100%;
+}
