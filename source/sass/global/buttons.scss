@@ -1,0 +1,29 @@
+.btn {
+  padding: 10px 60px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: $btn-color;
+  color: $btn-txt-color;
+  font-family: $font-reg;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.alt-btn {
+  padding: 10px 60px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: $btn-alt-color;
+  color: $btn-alt-txt-color;
+  font-family: $font-reg;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  cursor: pointer;
+}

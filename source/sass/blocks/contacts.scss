@@ -1,0 +1,41 @@
+.contacts__adress {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__adress-text {
+  width: 50%;
+  margin: 0;
+  color: #000000;
+
+  &--uppercase {
+    margin-right: 20px;
+    font-family: $font-reg;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+
+  &--usual {
+    font-family: $font-txt;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.contacts__map {
+  width: 100%;
+  height: 365px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("http://placehold.it/320x365");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contacts__map-icon {
+  border: 1px solid red;
+}

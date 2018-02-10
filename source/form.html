@@ -3,88 +3,89 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="main-header">
-      <a class="logo-img" href="#">
-        <img src="http://placehold.it/33x38" width="33" height="38" alt="">
-      </a>
-      <b class="logo-txt"><span>Cat</span> Energy</b>
-      <div class="menu-icon"></div>
+      <a class="logo-img" href="#"><img src="img/icon-logo-mobile.svg" width="33" height="38" alt=""></a>
+      <img class="main-header__logo" src="img/logo-mobile-header.svg" width="103" height="20" alt="">
+      <button class="main-nav__toggle"></button>
     </header>
     <h1 class="program-form-title">Подбор программы</h1>
     <p class="program-form-description">Заполните анкету и мы подберем программу питания для вашего кота</p>
     <form class="program-select-form" action="">
-      <fieldset class="program-select-form__group">
+      <fieldset class="program-select-form__group program-select-form__group--border-bot">
         <label class="program-select-form__label">
           Имя:*
-          <input class="program-select-form__input" type="text" name="" value="Барсик">
+          <input class="program-select-form__input" type="text" name="" value="Барсик" required>
         </label>
         <label class="program-select-form__label">
           Вес:*
-          <input class="program-select-form__input" type="text" name="" value="7">
+          <input class="program-select-form__input" type="text" name="" value="7" required>
         </label>
         <label class="program-select-form__label">
           Возраст (лет):
           <input class="program-select-form__input" type="text" name="" value="7">
         </label>
       </fieldset>
-      <fieldset class="program-select-form__group">
+      <fieldset class="program-select-form__group program-select-form__group--border-bot">
         <label class="program-select-form__label">
+          <input class="program-select-form__radio-input" type="radio" name="" value="">
           Похудение
-          <input class="program-select-form__radio-input" type="radio" name="" value="">
         </label>
         <label class="program-select-form__label">
+          <input class="program-select-form__radio-input" type="radio" name="" value="">
           Набор массы
-          <input class="program-select-form__radio-input" type="radio" name="" value="">
         </label>
         <label class="program-select-form__label">
-          Не знаю (нужен ваш совет)
           <input class="program-select-form__radio-input" type="radio" name="" value="">
+          Не знаю (нужен ваш совет)
         </label>
       </fieldset>
       <fieldset class="program-select-form__group">
-        <legend class="program-select-form__legend">Контактные данные (владельца кота)</legend>
+        <b class="program-select-form__legend">Контактные данные (владельца кота)</b>
         <label class="program-select-form__label">
           E-mail:*
-          <input class="program-select-form__mail-input" type="email" name="" value="">
+          <input class="program-select-form__input" type="email" name="" value="" required>
         </label>
         <label class="program-select-form__label">
           Телефон:*
-          <input class="program-select-form__tel-input" type="tel" name="" value="">
+          <input class="program-select-form__input" type="tel" name="" value="" required>
         </label>
       </fieldset>
       <fieldset class="program-select-form__group">
-        <legend class="program-select-form__legend">Комментарий</legend>
-        <textarea class="program-select-form__textarea" name="name" rows="8" cols="80" placeholder="Расскажите обо всех повадках кота"></textarea>
+        <b class="program-select-form__legend">Комментарий</b>
+        <textarea class="program-select-form__textarea" name="name" placeholder="Расскажите обо всех повадках кота"></textarea>
       </fieldset>
       <fieldset class="program-select-form__group">
         <label class="program-select-form__label">
+          <input class="program-select-form__radio-input" type="checkbox" name="" value="">
           Сахарозаменитель
-          <input class="program-select-form__radio-input" type="checkbox" name="" value="">
         </label>
         <label class="program-select-form__label">
+          <input class="program-select-form__radio-input" type="checkbox" name="" value="">
           Питьевая вода
-          <input class="program-select-form__radio-input" type="checkbox" name="" value="">
         </label>
         <label class="program-select-form__label">
+          <input class="program-select-form__radio-input" type="checkbox" name="" value="">
           Молоко
-          <input class="program-select-form__radio-input" type="checkbox" name="" value="">
         </label>
         <label class="program-select-form__label">
-          Витамины
           <input class="program-select-form__radio-input" type="checkbox" name="" value="">
+          Витамины
         </label>
       </fieldset>
-      <button class="program-select-form__btn" type="submit" name="button">Отправить заявку</button>
-      <span class="program-select-form__footnote">* — Обязательные поля</span>
+      <div class="program-select-form__btn-wrapper">
+        <button class="program-select-form__btn btn" type="submit" name="button">Отправить заявку</button>
+        <span class="program-select-form__footnote">* — Обязательные поля</span>
+      </div>
     </form>
     <section class="contacts">
       <div class="contacts__adress">
-        <p class="contacts__adress-offer">
+        <p class="contacts__adress-text contacts__adress-text--uppercase">
           приглашаем к сотрудничеству дилеров!
         </p>
-        <p class="contacts__adress-value">
+        <p class="contacts__adress-text contacts__adress-text--usual">
           ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
         </p>
       </div>
@@ -93,16 +94,19 @@
       </div>
     </section>
     <footer class="main-footer">
-      <b class="logo-txt"><span>Cat</span> Energy</b>
+      <div class="logo-footer-container">
+        <img src="/img/logo-footer.svg" alt="Cat Energy" class="logo-footer" width="128" height="24">
+      </div>
+
       <div class="social-links">
         <a class="social-links__item" href="#"></a>
         <a class="social-links__item" href="#"></a>
         <a class="social-links__item" href="#"></a>
       </div>
       <div class="copyright">
-        <p class="copyright__title">
+        <a class="copyright__title-link" href="#">
           HTML Academy
-        </p>
+        </a>
         <a class="copyright__icon" href="#">
           <img class="copyright__icon-img" src="http://placehold.it/27x35" width="27" height="35" alt="" >
         </a>

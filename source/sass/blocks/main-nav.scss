@@ -1,0 +1,23 @@
+.main-nav__toggle {
+  display: block;
+  position: relative;
+  width: 24px;
+  height: 18px;
+  border: none;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  cursor: pointer;
+  background-color: #ffffff;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    right: 0;
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: #000000;
+  }
+}

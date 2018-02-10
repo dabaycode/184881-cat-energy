@@ -1,0 +1,35 @@
+.additional-product-card {
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #cdcdcd;
+
+  &:last-child {
+    border-bottom: 1px solid #cdcdcd;
+  }
+}
+
+.additional-product-card-name {
+  margin: 0;
+  width: 100%;
+  font-family: $font-reg;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.additional-product-card__btn {
+  width: 100%;
+}
+
+.additional-product-card__character {
+  margin: 15px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-family: $font-txt;
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+}
