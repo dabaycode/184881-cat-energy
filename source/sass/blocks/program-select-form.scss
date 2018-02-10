@@ -1,14 +1,12 @@
 .program-select-form__group {
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
   border: none;
+
   &--border-bot {
     border-bottom: 1px solid #ededed;
   }
-}
-
-.program-select-form__group {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .program-select-form__label {
@@ -21,6 +19,7 @@
   color: #222222;
   font-family: $font-reg;
   text-transform: uppercase;
+
   &:last-child {
     margin-bottom: 0;
   }

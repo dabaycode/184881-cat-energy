@@ -43,16 +43,15 @@
   font-family: $font-reg;
   font-size: 24px;
   line-height: 24px;
-  color: #000;
+  color: #000000;
 }
 
 .example__character-item-decription {
   margin: 0;
   padding: 0 15px;
   display: block;
-  background-color:  #f2f2f2;
+  background-color: #f2f2f2;
   position: absolute;
-  // left: 50%;
   bottom: -17px;
   font-family: $font-txt;
   font-size: 12px;
@@ -95,7 +94,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #fff;
+  background-color: #ffffff;
   border: 1px solid #cdcdcd;
   border-radius: 6px;
 

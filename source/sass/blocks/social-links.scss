@@ -12,7 +12,8 @@
   height: 12px;
   margin-right: 40px;
   display: block;
-  background-image: url('http://placehold.it/22x12');
+  background-image: url("http://placehold.it/22x12");
+
   &:last-child {
     margin-right: 0;
   }
