@@ -12,6 +12,7 @@
   height: 2px;
   position: relative;
   background-color: #d3d3d3;
+
   &::after {
     content: "";
     position: absolute;
