@@ -8,3 +8,9 @@ $btn-color: #68b738;
 $btn-txt-color: #ffffff;
 $btn-alt-txt-color: #222222;
 $btn-alt-color: #f2f2f2;
+
+// Widths
+$only-mobile: "(max-width: 767px)";
+$tablet: "(min-width: 768px)";
+$tablet-max: "(max-width: 1299px)";
+$desktop: "(min-width: 1300px)";

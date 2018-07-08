@@ -1,3 +1,11 @@
+.promo-main {
+  box-sizing: border-box;
+  @media #{$tablet} {
+    position: relative;
+    padding-bottom: 530px;
+  }
+}
+
 .promo-main__start-block {
   width: 100%;
   margin-bottom: 155px;
@@ -8,6 +16,14 @@
   background-size: cover;
   background-position: center;
   text-align: center;
+  @media #{$tablet} {
+    padding: 30px 120px 0;
+    margin-bottom: 40px;
+    z-index: 100;
+    box-sizing: border-box;
+    background: none;
+    text-align: left;
+  }
 }
 
 .promo-main__title {
@@ -15,8 +31,11 @@
   padding: 0 20px;
   font-family: $font-reg;
   font-size: 36px;
-  line-height: 36px;
   color: #ffffff;
+  @media #{$tablet} {
+    font-size: 60px;
+    color: #000000;
+  }
 }
 
 .promo-main__description {
@@ -24,18 +43,48 @@
   padding: 0 20px;
   font-family: $font-reg;
   font-size: 14px;
-  line-height: 14px;
   color: #ffffff;
   text-transform: uppercase;
+  @media #{$tablet} {
+    font-size: 20px;
+    color: #000000;
+  }
 }
 
 .promo-main__product-img {
+  width: 280px;
+  height: 270px;
   position: absolute;
   left: 50%;
   margin-top: -280px;
   margin-left: -140px;
+  background-image: url('../img/index-can-mobile@1x.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  @media #{$tablet} {
+    margin: 0;
+    width: 709px;
+    height: 609px;
+    left: 0;
+    bottom: 0;
+    background-image: url('../img/index-can-tablet@1x.jpg');
+  }
 }
 
 .promo-main__btn-wrapper {
+  display: flex;
   padding: 0 20px;
+  @media #{$tablet} {
+    padding: 0 120px;
+    position: relative;
+    z-index: 100;
+  }
+}
+
+.promo-main__btn {
+  flex-grow: 1;
+  @media #{$tablet} {
+    flex-grow: 0;
+    box-sizing: border-box;
+  }
 }

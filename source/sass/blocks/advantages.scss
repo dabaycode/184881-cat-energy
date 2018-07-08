@@ -31,6 +31,25 @@
   line-height: 18px;
 }
 
-.advantages__item-icon-img {
+
+.advantages__item-icon {
+  min-width: 60px;
+  height: 60px;
   margin-right: 20px;
+  background-color: #68b738; 
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &--1 {
+    background-image: url("../img/advantage-leaf@1x.png");
+  }
+  &--2 {
+    background-image: url("../img/advantage-powder@1x.png");
+  }
+  &--3 {
+    background-image: url("../img/advantage-dining@1x.png");
+  }
+  &--4 {
+    background-image: url("../img/advantage-clock@1x.png");
+  }
 }
